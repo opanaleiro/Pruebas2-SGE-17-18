@@ -20,9 +20,10 @@ function menuItem1() {
 //Esta función lo que hará será mostrar el nombre de la HCG
 function menuItem2(){
       //Obtenemos en una variable el nombre de la HCG
-      var name = SpreadsheetApp.getActive().getName();
+      var name2 = SpreadsheetApp.openById("1ECyFILkYcBP6jTxXqD_ONb2Dc0sKrubQKFtxK-p42FY").getName();
+  
       //Mostramos la variable en el log
-      Logger.log("Nombre de la Sheet;"+name);
+      Logger.log("Nombre de la Sheet;"+name2);
 
 
 }
